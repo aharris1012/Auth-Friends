@@ -29,7 +29,7 @@ class FriendsList extends React.Component {
         <div>
             <AddFriend />
           {this.state.friends.map(item => (
-            <div key ={item.id}>
+            <div className="friends" key ={item.id}>
               <p>id: {item.id}</p>
               <p>Name: {item.name}</p>
               <p>Age: {item.age}</p>
